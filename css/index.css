@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+:root {
+    --accent-color: #FB6400;
+    --main-color: black;
+}
+
+header nav .line{
+    border-bottom: 2px solid #E4E4E4;
+}
+
+header nav .logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+    color: var(--accent-color);
+    /* padding: 10px; */
+    margin: 100px;
+}
+
+header nav .menu {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0; */
+    padding-left: 700px;;
+    list-style-type: none;
+}
+
+header nav .menu a {
+    text-decoration: none;
+    color: var(--main-color);
+
+}
+
+header nav .menu a:hover {
+    border: 1px solid transparent;
+    padding: 20px;
+    background-color: #E7E7E7;
+}
+
+.banner {
+     font-family: 'Josefin Sans', sans-serif;
+     text-align: center;
+     padding: 200px;
+}
